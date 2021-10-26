@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\class_object\class_object\obj\Debug\class_object.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\class_object\class_object\obj\Debug\class_object.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\class_object\class_object\bin\Debug\class_object.exe.config
+C:\Users\Dell\source\repos\class_object\class_object\bin\Debug\class_object.exe
+C:\Users\Dell\source\repos\class_object\class_object\bin\Debug\class_object.pdb
+C:\Users\Dell\source\repos\class_object\class_object\obj\Debug\class_object.exe
+C:\Users\Dell\source\repos\class_object\class_object\obj\Debug\class_object.pdb
