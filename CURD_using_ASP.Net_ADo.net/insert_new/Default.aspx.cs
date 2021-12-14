@@ -16,8 +16,7 @@ namespace insert_new
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;" +
-                "Initial Catalog=college;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=college;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("INSERT INTO student(rollno, sname)" +
                 "VALUES('"+ rollno.Text+ "','" + sname.Text + "')", con);

@@ -30,8 +30,7 @@ namespace insert_new
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source =.\\SQLEXPRESS; " +
-                "Initial Catalog=college;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source =.\\SQLEXPRESS; " + "Initial Catalog=college;Integrated Security=True");
             con.Open();
             SqlCommand cmd = new SqlCommand("update student set sname='"+ sname.Text + "'" +
                 " where rollno='"+ rollno.Text +"' ", con);
